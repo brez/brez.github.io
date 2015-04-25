@@ -168,19 +168,19 @@ h5, h6          { font-weight: bolder }
 
 
 
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
+    header ul.social li a.linked,
+    header ul.social li a.linked:hover{
         background-position: 0 0;
     }
 
 
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
+    header ul.social li a.hacker,
+    header ul.social li a.hacker:hover{
         background-position: -31px 0;
     }
 
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
+    header ul.social li a.github,
+    header ul.social li a.github:hover{
         background-position: -62px 0;
     }
 
