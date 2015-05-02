@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>bresnik.org</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>BRESNIK</h1>
+    </div>
+    <div class="footer clearfix">
+      <ul class="social clearfix">
+        <li><a target="_blank" href="https://www.linkedin.com/pub/john-bresnik/1/6a/2b9" class="linked" data-title="Linked In"></a></li>
+        <li><a target="_blank" href="https://github.com/brez" class="github" data-title="Github"></a></li>
+        <li><a target="_blank" href="https://twitter.com/__brez" class="twitter" data-title="Twitter"></a></li>
+      </ul><!-- end social -->
+    </div ><!-- end footer -->
+  </header><!-- end header -->
+
+  <section class="main clearfix">
+
+    <section class="top">
+      <div class="wrapper content_header clearfix">
+        <div class="work_nav">
+          <ul class="btn clearfix">
+            <li><a href="#" class="previous" data-title="Previous"></a></li>
+            <li><a href="../index.html" class="grid" data-title="Portfolio"></a></li>
+            <li><a href="#" class="next" data-title="Next"></a></li>
+          </ul>
+        </div><!-- end work_nav -->
+        <h1 class="title">PEPSI NEXT SUPERBOWL</h1>
+      </div>
+    </section><!-- end top -->
+
+    <section class="wrapper">
+      <div class="content">
+        <p>Free Pepsi Next Coupon support for a Pepsi Next Superbowl commercial. Allowed anyone to use a simple form to request a free PepsiNext 1 liter bottle, valid for only 10 minutes. Set the benchmark at 10 million requests in 10 seconds (estimated based on a percentage of the number of Superbowl watchers from the previous year). Used Nodejs to provide asynchronous persistence to the database so each request could return immediately. Used benchmark to establish the necessary amount of infrastructure required. Day of the Superbowl it processed 19 million requests the first minute, 32 million in the remaining minutes with 0% loss rate of requests, complete success.</p>
+        <h2>Technology</h2>
+        <ul>
+          <li>Nodejs</li>
+          <li>Apache AB</li>
+        </ul>
+        <h2>Stack</h2>
+        <ul>
+          <li>18 XLarge Amazon EC2 Instances</li>
+          <li>Amazon Elastic Load Balancing</li>
+          <li>Amazon RDS</li>
+          <li>NGINX</li>
+        </ul>
+        <h2>Process</h2>
+        <p>Both the application and the requirements were very simple, bulk of time was spend using AB to support the benchmark.</p>
+
+      </div><!-- end content -->
+    </section>
+  </section><!-- end main -->
+
+</body>
+</html>
